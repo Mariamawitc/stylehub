@@ -1,0 +1,7 @@
+.placeholder-page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
