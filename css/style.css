@@ -273,8 +273,8 @@ img {
 .category-grid,
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 34px;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 24px;
 }
 
 .category-card {
