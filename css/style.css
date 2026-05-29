@@ -558,4 +558,86 @@ img {
     opacity: 1;
     transform: translateX(0);
   }
+
+}
+.contact-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  gap: 20px;
+}
+/* Styles for Shop Page */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  background-color: var(--surface);
+  transition: transform 180ms ease;
+}
+
+/* Styles for Product Page */
+.product-details {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background-color: var(--surface);
+}
+
+.product-details img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Styles for Contact Page */
+.contact-details {  margin-top: 20px;  padding: 20px;  border: 1px solid var(--line);  border-radius: 8px;  background-color: var(--surface);}
+.contact-details h2 {  margin-bottom: 10px;}
+contact-details label {  display: block;  margin: 10px 0 5px;}
+.contact-details input, .contact-details textarea {  width: 100%;  padding: 10px;  border: 1px solid var(--line);  border-radius: 4px;}
+.contact-details button {  margin-top: 10px;  padding: 10px 15px;  background-color: var(--ink);  color: var(--surface);  border: none;  border-radius: 4px;  cursor: pointer;  transition: background-color 0.3s;}
+.contact-details button:hover {  background-color: var(--muted);}/* Additional Styles for Contact Page */
+.contact-details {  font-size: 16px;}
+.contact-details input, .contact-details textarea {  font-size: 14px;} 
+ 
+
+/* Styles for Cart Page */
+.cart-details {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background-color: var(--surface);
+}
+
+.cart-details table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-details th, .cart-details td {
+  padding: 10px;
+  border: 1px solid var(--line);
+}
+
+/* Styles for About Page */
+.about-details {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background-color: var(--surface);
+  height: 100%;
+}
+
+.about-details h3 {
+  margin-top: 20px;
 }
