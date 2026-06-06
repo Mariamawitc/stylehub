@@ -11,122 +11,54 @@
   <div class="page-shell">
     <header class="site-header">
       <a class="logo" href="index.html" aria-label="StyleHub home">StyleHub</a>
-      <nav class="main-nav" aria-label="Main navigation">
-        <a href="index.html">Home</a>
-        <a href="shop.html">Shop</a>
-        <a href="#categories">Categories</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-      <div class="header-actions" aria-label="Header actions">
-        <button class="icon-btn" type="button" aria-label="Search">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m1.35-5.15a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z"/></svg>
-        </button>
-        <button class="icon-btn" type="button" aria-label="Account">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 21a8 8 0 0 0-16 0m12-13a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"/></svg>
-        </button>
-        <a class="icon-btn cart-link" href="cart.html" aria-label="Cart">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6h15l-1.6 8.4a2 2 0 0 1-2 1.6H9.2a2 2 0 0 1-2-1.7L6 3H3m6 18h.01M18 21h.01"/>
-          <span>2</span>
-        </a>
-      </div>
+      <nav class="main-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="shop.html">Shop</a><a href="index.html#categories">Categories</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
+      <div class="header-actions" aria-label="Header actions"><button class="icon-btn" type="button" aria-label="Search"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m1.35-5.15a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z"/></svg></button><button class="icon-btn" type="button" aria-label="Account"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 21a8 8 0 0 0-16 0m12-13a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"/></svg></button><a class="icon-btn cart-link" href="cart.html" aria-label="Cart"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6h15l-1.6 8.4a2 2 0 0 1-2 1.6H9.2a2 2 0 0 1-2-1.7L6 3H3m6 18h.01M18 21h.01"/></svg><span>2</span></a></div>
     </header>
+
     <main>
-      <section class="content-section">
-        <div class="section-heading">
-          <h2>Your Cart</h2>
-          <a href="#">Continue Shopping</a>
+      <section class="page-hero compact">
+        <p class="eyebrow">Shopping Bag</p>
+        <h1>Your Cart</h1>
+      </section>
+
+      <section class="cart-layout">
+        <div class="cart-items" id="cart-items">
+          <article class="cart-item">
+            <img src="assets/images/cat-hoodie2.png" alt="Oversized hoodie">
+            <div><h2>Oversized Hoodie</h2><p>Size M</p><div class="quantity-control"><button type="button">-</button><span>1</span><button type="button">+</button></div></div>
+            <strong>$49.99</strong>
+          </article>
+          <article class="cart-item">
+            <img src="assets/images/cat-t-shirt.png" alt="Cotton white tee">
+            <div><h2>Cotton White Tee</h2><p>Size L</p><div class="quantity-control"><button type="button">-</button><span>1</span><button type="button">+</button></div></div>
+            <strong>$24.99</strong>
+          </article>
         </div>
-        <div class="cart-details">
-          <h2>Your Cart</h2>
-          <table>
-            <thead>
-              <tr>
-                <th>Product</th>
-                <th>Price</th>
-                <th>Quantity</th>
-                <th>Total</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Stylish T-Shirt</td>
-                <td>$19.99</td>
-                <td>1</td>
-                <td>$19.99</td>
-              </tr>
-              <tr>
-                <td>Classic Jeans</td>
-                <td>$39.99</td>
-                <td>1</td>
-                <td>$39.99</td>
-              </tr>
-            </tbody>
-            <tfoot>
-              <tr>
-                <td colspan="3">Total</td>
-                <td>$59.98</td>
-              </tr>
-            </tfoot>
-          </table>
-          <button class="btn-primary">Proceed to Checkout</button>
-        </div>
+
+        <aside class="order-summary" id="order-summary">
+          <h2>Order Summary</h2>
+          <div><span>Subtotal</span><strong>$74.98</strong></div>
+          <div><span>Shipping</span><strong>Free</strong></div>
+          <div><span>Tax</span><strong>$5.25</strong></div>
+          <div class="total"><span>Total</span><strong>$80.23</strong></div>
+          <button class="btn-primary wide-btn" type="button">Checkout</button>
+          <a class="continue-link" href="shop.html">Continue Shopping</a>
+        </aside>
       </section>
     </main>
-   
+
     <footer class="site-footer">
-      <div class="footer-brand">
-        <a class="footer-logo" href="index.html">StyleHub</a>
-        <p>&copy; 2024 StyleHub. All rights reserved.</p>
-      </div>
-
-      <div class="footer-column">
-        <h3>Shop</h3>
-        <a href="shop.html">All Products</a>
-        <a href="shop.html">Men</a>
-        <a href="shop.html">Women</a>
-        <a href="shop.html">New Arrivals</a>
-      </div>
-
-      <div class="footer-column">
-        <h3>Customer Service</h3>
-        <a href="contact.html">Contact Us</a>
-        <a href="shop.html">Shipping &amp; Returns</a>
-        <a href="contact.html">FAQs</a>
-        <a href="shop.html">Track Order</a>
-      </div>
-
-      <div class="footer-column">
-        <h3>Company</h3>
-        <a href="about.html">About Us</a>
-        <a href="contact.html">Careers</a>
-        <a href="contact.html">Privacy Policy</a>
-        <a href="contact.html">Terms &amp; Conditions</a>
-      </div>
-
-      <div class="footer-newsletter">
-        <h3>Subscribe to our newsletter</h3>
-        <form class="newsletter-form">
-          <label class="sr-only" for="newsletter-email">Email address</label>
-          <input id="newsletter-email" type="email" placeholder="Enter your email">
-          <button type="submit">Subscribe</button>
-        </form>
-        <div class="social-links" aria-label="Social links" id="contact">
-          <a href="#" aria-label="Facebook">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3c-3 0-5 2-5 5v3H6v4h3v4h4v-4h3l1-4h-4V9c0-.6.4-1 1-1Z"/></svg>
-          </a>
-          <a href="#" aria-label="Instagram">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Zm5 5a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm5.5-.8v.1"/></svg>
-          </a>
-          <a href="#" aria-label="Twitter">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 5.8c-.7.3-1.4.5-2.2.6.8-.5 1.3-1.2 1.6-2.1-.7.4-1.6.8-2.4.9A3.7 3.7 0 0 0 12.6 8v.9A10.6 10.6 0 0 1 4.9 5s-4 9 5 13a11 11 0 0 1-6.6 2c9 5 19.7 0 19.7-11.5v-.5c.7-.5 1.3-1.2 1.8-1.9-.6.3-1.2.5-1.8.7Z"/></svg>
-          </a>
-        </div>
-      </div>
+      <div class="footer-brand"><a class="footer-logo" href="index.html">StyleHub</a><p>&copy; 2024 StyleHub. All rights reserved.</p></div>
+      <div class="footer-column"><h3>Shop</h3><a href="shop.html">All Products</a><a href="shop.html">Men</a><a href="shop.html">Women</a><a href="shop.html">New Arrivals</a></div>
+      <div class="footer-column"><h3>Customer Service</h3><a href="contact.html">Contact Us</a><a href="shop.html">Shipping &amp; Returns</a><a href="contact.html">FAQs</a><a href="shop.html">Track Order</a></div>
+      <div class="footer-column"><h3>Company</h3><a href="about.html">About Us</a><a href="contact.html">Careers</a><a href="contact.html">Privacy Policy</a><a href="contact.html">Terms &amp; Conditions</a></div>
+      <div class="footer-newsletter"><h3>Subscribe to our newsletter</h3><form class="newsletter-form"><label class="sr-only" for="newsletter-cart-email">Email address</label><input id="newsletter-cart-email" type="email" placeholder="Enter your email"><button type="submit">Subscribe</button></form></div>
     </footer>
-
   </div>
-    <script src="js/app.js"></script>
-  </div>
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/wishlist.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>

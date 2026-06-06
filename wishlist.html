@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StyleHub | Wishlist</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="logo" href="index.html" aria-label="StyleHub home">StyleHub</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="index.html#categories">Categories</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-actions" aria-label="Header actions">
+        <button class="icon-btn" type="button" aria-label="Search"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m1.35-5.15a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z"/></svg></button>
+        <button class="icon-btn" type="button" aria-label="Account"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 21a8 8 0 0 0-16 0m12-13a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"/></svg></button>
+        <a class="icon-btn cart-link" href="cart.html" aria-label="Cart"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6h15l-1.6 8.4a2 2 0 0 1-2 1.6H9.2a2 2 0 0 1-2-1.7L6 3H3m6 18h.01M18 21h.01"/></svg><span>0</span></a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero compact">
+        <p class="eyebrow">Saved Pieces</p>
+        <h1>Your Wishlist</h1>
+        <p id="wishlist-count">0 saved items</p>
+      </section>
+
+      <section class="content-section">
+        <div class="product-grid shop-grid" id="wishlist-products"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand"><a class="footer-logo" href="index.html">StyleHub</a><p>&copy; 2024 StyleHub. All rights reserved.</p></div>
+      <div class="footer-column"><h3>Shop</h3><a href="shop.html">All Products</a><a href="shop.html">Men</a><a href="shop.html">Women</a><a href="shop.html">New Arrivals</a></div>
+      <div class="footer-column"><h3>Customer Service</h3><a href="contact.html">Contact Us</a><a href="shop.html">Shipping &amp; Returns</a><a href="contact.html">FAQs</a><a href="shop.html">Track Order</a></div>
+      <div class="footer-column"><h3>Company</h3><a href="about.html">About Us</a><a href="contact.html">Careers</a><a href="contact.html">Privacy Policy</a><a href="contact.html">Terms &amp; Conditions</a></div>
+      <div class="footer-newsletter"><h3>Subscribe to our newsletter</h3><form class="newsletter-form"><label class="sr-only" for="newsletter-wishlist-email">Email address</label><input id="newsletter-wishlist-email" type="email" placeholder="Enter your email"><button type="submit">Subscribe</button></form></div>
+    </footer>
+  </div>
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/wishlist.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
